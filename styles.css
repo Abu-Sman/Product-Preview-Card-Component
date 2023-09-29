@@ -1,0 +1,101 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.container {
+  height: 85vh;
+  width: 80vw;
+  margin: 8rem auto;
+  background-color: hsl(30, 38%, 92%);
+  box-shadow: 1.2rem 1.2rem 2.4rem rgba(0, 0, 0, 0.1),
+    -1.2rem -1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-card {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  border-radius: 80px;
+}
+
+.img-box {
+}
+
+.product-img {
+  width: 100%;
+}
+
+.text-box {
+  background-color: hsl(0, 0%, 100%);
+  padding: 3rem;
+}
+
+.label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 2.4rem;
+  color: hsl(212, 21%, 14%);
+}
+
+.description {
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  width: 100%;
+  padding: 1.6rem;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
