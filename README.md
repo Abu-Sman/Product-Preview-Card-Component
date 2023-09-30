@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My Solution URL](https://your-solution-url.com)
-- Live Site URL: [The live site URL](https://your-live-site-url.com)
+- Live Site URL: [The live site URL](https://preview-card-component-solution.netlify.app/)
 
 ## My process
 
